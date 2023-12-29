@@ -3,77 +3,35 @@
   <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<title>yu-yu0202のサイト</title>
-		<link rel="stylesheet" href="css/index.css">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&amp;display=swap" rel="stylesheet">
-		<style>
-			@charset "UTF-8";
-			html {
-				background-color: #f5f5f5;
-			}
-			body {
-				text-align: center;
-				font-family : 'Zen Kaku Gothic New', sans-serif;
-				margin: 0;
-				padding: 0;
-				overflow: hidden
-			}
-			footer {
-				position: absolute;
-				bottom: 0;
-				text-align: left;
-			}
-			div#body {
-				width: 35vw;
-				text-align: left;
-				text-align: center;
-				background:#ffffff
-			}
-			div#side_box {
-				width: 20vw;
-				float: left;
-				align-content: flex-end;
-				text-align:center;
-				background: #ffffff
-			}
-			div#blank{
-				width:10vw
-			}
-			header {
-				margin-top: 24px;
-				display: inline-block;
-				align-items: center;
-				align-content: stretch;
-				text-align: center;
-				width: 100vw;
-				background: #FFFFFF;
-			}
-			.main{
-				margin: 50px 0px 0px 0px;
-				text-align:center;
-			}
-			main {
-				flex-wrap: nowrap;
-				display: flex;
-				justify-content: center;
-			}
-		</style>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>yu-yu0202のサイト</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/index.css">
   </head>
 	<body>
 		<header>
-			<h2>yu-yu0202のサイト</h2>
+			<h2 id="sitetitle">yu-yu0202のサイト</h2>
 		</header>
 		<main>
 			<div id="body" class="main">
-				メインコンテンツ<br>メインコンテンツ<br>メインコンテンツ<br>メインコンテンツ<br>メインコンテンツ<br>
+				<h1 class="title">メインページ</h1>
+				<p class="date">更新日時:2023/12/29 作成日時:2023/12/29</p>
+				<p class="letter">どうも、yu-yu0202です。普段はScratchで活動してます。<br />最近はScratchWikiで記事を書いたり、Pythonやこのサイトを開発したりしています。<br />書くことがない！(((</p>
+				<h2 class="heading">Scratch</h2>
+				<a href="https://scratch.mit.edu/users/yu-yu0202">@yu-yu0202</a>
+				<h2 class="heading">Github</h2>
+				<a href="https://github.com/Yu-yu0202">@Yu-yu0202</a>
 			</div>
 			<div id="blank"class="main">
 			</div>
 			<div id="side_box" class="main">
-				サイドバー<br>サイドバー<br>サイドバー<br>サイドバー<br>サイドバー<br>
+				<div id="recently">
+					<h2 class="heading">最近の投稿</h2>
+					<h3 class="letter" style="text-align:center !important;"></h3>
+				</div>
 			</div>
 		</main>
 		<footer>
